@@ -13,12 +13,6 @@ private int currentScore;
         currentScore = 0; 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void IncreaseScore(){
         currentScore += pointsPerPickup; 
     }
